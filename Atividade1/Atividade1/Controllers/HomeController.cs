@@ -48,6 +48,31 @@ namespace Atividade1.Controllers
             return View();
         }
 
+        public IActionResult Ajuda()
+        {
+            return View();
+        }
+
+        public IActionResult Painel()
+        {
+            return View();
+        }
+
+        public IActionResult Principal()
+        {
+            return View();
+        }
+
+        public IActionResult TermosInterno()
+        {
+            return View();
+        }
+
+        public IActionResult PrivacidadeInterno()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
